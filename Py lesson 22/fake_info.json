@@ -1,0 +1,36 @@
+{
+    "active_students": [
+        {
+            "name": "James Bell",
+            "email": "tracy95@example.com",
+            "address": "Unit 4862 Box 0718\nDPO AE 78655",
+            "active": true
+        },
+        {
+            "name": "Chris Taylor",
+            "email": "catherineestrada@example.org",
+            "address": "7455 Joshua Garden Suite 870\nSouth Leetown, CO 74276",
+            "active": true
+        },
+        {
+            "name": "Shelly Mcmahon",
+            "email": "zhicks@example.org",
+            "address": "USNS Burns\nFPO AE 69581",
+            "active": true
+        }
+    ],
+    "inactive_students": [
+        {
+            "name": "Chelsea Potter",
+            "email": "ppowell@example.com",
+            "address": "771 Beck Shoals\nWendyland, HI 42614",
+            "active": false
+        },
+        {
+            "name": "Garrett Mendez",
+            "email": "tyler37@example.org",
+            "address": "PSC 1107, Box 3161\nAPO AE 49995",
+            "active": false
+        }
+    ]
+}
