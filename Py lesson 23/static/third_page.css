@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  background-color: gray;
+}
+
+.head {
+  border: 5px solid gold;
+  background-color: blueviolet;
+  color: white;
+  width: 400px;
+  height: 100px;
+  text-align: center;
+  padding: 20px;
+}
+
+div {
+  margin-left: 34%;
+  margin-top: 18%;
+  margin-right: auto;
+  margin-right: 36%;
+}
+
+button {
+  margin-top: 15px;
+  margin-left: 32%;
+  border: none;
+  padding: 25px 45px;
+  text-align: center;
+  font-size: 19px;
+  background-color: rgb(23, 23, 206);
+  color: white;
+  border-radius: 8px;
+}
