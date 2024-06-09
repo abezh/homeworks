@@ -1,0 +1,4 @@
+fred -> b'hello world'
+charles -> b'hello'
+charles -> b'bye'
+fred -> b'goodbye'
