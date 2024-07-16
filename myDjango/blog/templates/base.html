@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="static/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">logo1</div>
+        <div class="links">
+          <a href="#">Link1</a>
+          <a href="#">Link2</a>
+          <a href="#">Link3</a>
+          <a href="#">Link4</a>
+        </div>
+      </nav>
+    </header>
+    <section>
+      {% for post in posts %}
+        <div class="posts">
+          <h1>{{ post.title }}</h1>
+          <p>{{ post.content }}</p>
+        </div>
+      {% endfor %}
+      <form>
+        <label for="fname">First Name</label>
+        <input type="text" placeholder="First name" />
+        <br />
+        <label for="lname">Last Name</label>
+        <input type="text" placeholder="Last name" />
+        <br />
+        <label for="age">Age</label>
+        <input type="number" placeholder="Age" />
+        <br />
+        <label for="Date">Date of Birth</label>
+        <input type="date" />
+        <br />
+        <label for="Email">Email</label>
+        <input type="email" placeholder="Email" />
+      </form>
+    </section>
+  </body>
+</html>
